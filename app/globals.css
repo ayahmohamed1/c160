@@ -705,19 +705,19 @@ html, body {
 .memory-photo {
   position: relative;
   width: 100%;
-  max-width: 430px;
-  aspect-ratio: 4 / 3;
+  max-width: 360px;
+  aspect-ratio: 3 / 4;
   overflow: hidden;
   border: 2px solid rgba(102, 16, 44, 0.65);
   border-radius: 12px;
   padding: 8px;
-  background: #fffaf5;
+  background: var(--bg-burgundy-deep);
   box-shadow: 0 8px 22px rgba(59, 6, 22, 0.2), inset 0 0 0 1px var(--border-gold);
   animation: memoryReveal 0.35s ease both;
 }
 
 .memory-photo img {
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 6px;
 }
 
