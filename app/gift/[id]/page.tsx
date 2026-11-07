@@ -18,11 +18,11 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
       type: 'website',
       images: [
         {
-          url: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
-          secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
+          url: 'https://agiftforyouuu.vercel.app/images/og-cat.png',
+          secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.png',
           width: 1200,
           height: 630,
-          type: 'image/jpeg',
+          type: 'image/png',
           alt: `Happy Birthday ${data.receiverName} Cat 🐱🎂`,
         },
       ],
@@ -31,7 +31,7 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
       card: 'summary_large_image',
       title: `Happy Birthday ${data.receiverName}! 🎂`,
       description: `A special birthday message for ${data.receiverName} 🤍`,
-      images: ['https://agiftforyouuu.vercel.app/images/og-cat.jpg'],
+      images: ['https://agiftforyouuu.vercel.app/images/og-cat.png'],
     },
   }
 }

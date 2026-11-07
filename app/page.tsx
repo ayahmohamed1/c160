@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
-        secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.jpg',
+        url: 'https://agiftforyouuu.vercel.app/images/og-cat.png',
+        secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.png',
         width: 1200,
         height: 630,
-        type: 'image/jpeg',
+        type: 'image/png',
         alt: 'Happy Birthday Ahmed Cat 🐱🎂',
       },
     ],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Happy Birthday amir! 🎂',
     description: 'A special birthday message for amir 🤍',
-    images: ['https://agiftforyouuu.vercel.app/images/og-cat.jpg'],
+    images: ['https://agiftforyouuu.vercel.app/images/og-cat.png'],
   },
 }
 
