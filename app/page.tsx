@@ -7,15 +7,15 @@ export const metadata: Metadata = {
   title: 'Happy Birthday amir! 🎂',
   description: 'A special birthday message for amir 🤍',
   openGraph: {
-    title: 'Happy Birthday Ahmed! 🎂',
+    title: 'Happy Birthday amir! 🎂',
     description: 'A special birthday message for amir 🤍',
     url: 'https://agiftforyouuu.vercel.app',
     siteName: 'Birthday Gift',
     type: 'website',
     images: [
       {
-        url: 'https://agiftforyouuu.vercel.app/images/og-cat.png',
-        secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.png',
+        url: 'https://agiftforyouuu.vercel.app/images/og-cat.png?v=2',
+        secureUrl: 'https://agiftforyouuu.vercel.app/images/og-cat.png?v=2',
         width: 1200,
         height: 630,
         type: 'image/png',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Happy Birthday amir! 🎂',
     description: 'A special birthday message for amir 🤍',
-    images: ['https://agiftforyouuu.vercel.app/images/og-cat.png'],
+    images: ['https://agiftforyouuu.vercel.app/images/og-cat.png?v=2'],
   },
 }
 
